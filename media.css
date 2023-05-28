@@ -1,0 +1,149 @@
+@media (max-width:25rem) {
+  
+  .slick-list{
+    width: 370px;
+  }
+  .logoslider-col{
+    width: 200px;
+  }
+}
+
+@media (max-width:50rem){
+  :root{
+    --font-xlarge:2.5rem;
+    --fontsmal:1rem;
+    --margin-bottom:2rem;
+  }
+  .primary-nav{
+    background-image: url(https://www.bugatti.com/fileadmin/_processed_/sei/nav/se-image-73a33b92189407ee6c6068427c14197b.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+.primary-navigation{
+  text-align: center;
+  padding-left: 0;
+}
+  .main-menu{
+    justify-content: center;
+  }
+  
+  li:hover>.sub-nav{
+    display: none;
+  }
+  .main-container{
+    padding: 1.87rem 1.3rem .6rem;
+  }
+  .main-container p{
+    font-size: 1rem;
+  }
+  .btn{
+    font-size: 1rem;
+  }
+  .disclaimer{
+    font-size: .8rem;
+  }
+
+  .universe-col{
+    grid-template-columns: 1fr;
+  }
+  
+  .model-container{
+    margin-inline: 1rem;
+  }
+  .title{
+    font-size: 1.6rem;
+    font-weight: 900;
+  line-height: 32px;
+  }
+  .news-col{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .news-col2{
+    display: flex;
+flex-direction:  column;
+  }
+  .news-model{
+    margin: 0;
+  }
+  .news-model>.title{
+    margin-inline: 1rem;
+  }
+  .slick-list{
+    max-width:405px ;
+  }
+  .logoslider-col{
+max-width: 145px;
+  }
+  .logoslider header{
+    font-size: 1rem;
+    line-height: 2.5rem;
+  }
+  .logoslider{
+    padding: 2.5rem 1.3rem;
+  }
+  .back-to-top{
+    display: block;
+    position: static;
+    margin-bottom: 2rem ;
+    margin-inline: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width:70rem) and (min-width:50rem) {
+  :root{
+    --font-xlarge:3.25rem;
+  }
+  
+li:hover .sub-nav{
+  display: none;
+}
+  
+  .news-col{
+    flex-direction: column;
+  }
+  
+ .news-model{
+  margin: 0;
+ }
+ .news-model>.title{
+  margin-inline: 6rem;
+}
+ .gallery-col{
+  display: flex;
+  flex-direction: column;
+  margin-inline: 6rem;
+ }
+
+ .news-text-col{
+  margin-inline: 6rem;
+  padding: 0;
+ }
+ .news-col2{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+ }
+ .news-text-col2>.news-link-text{
+  position: static;
+ }
+ .news-text-col2{
+  padding: 0 1rem;
+ }
+ .social-col{
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+ }
+ .logoslider{
+  padding: 2rem 2rem;
+ }
+ .logoslider header{
+  font-size: 2rem;
+  line-height: 3.5rem;
+}
+.back-to-top{
+right: 4rem;
+}
+}
