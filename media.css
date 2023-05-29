@@ -74,7 +74,7 @@ flex-direction:  column;
   }
 
   .social-col{
-    grid-template-columns: repeat(auto,minmax(17rem,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(17rem,1fr));
   }
   
   .slick-list{
