@@ -374,7 +374,7 @@ font-size: var(--fontsmal);
 
 .social-col{
   display: grid;
-  grid-template-columns:repeat(auto-fit,minmax(22rem,1fr));
+  grid-template-columns:repeat(auto-fit,minmax(25rem,1fr));
   gap: 1rem;
   font-size: 1rem;
  grid-auto-rows: 30rem;
