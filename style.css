@@ -24,6 +24,7 @@
     -webkit-font-smoothing: antialiased;
     letter-spacing: 1px;
     font-family: 'Patrick Hand',serif;
+    scroll-behavior: smooth;
   }
   /*
     6. Improve media defaults
