@@ -73,7 +73,7 @@ flex-direction:  column;
     margin-inline: 1rem;
   }
   .social-col{
-    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
   }
   .slick-list{
     max-width:405px ;
@@ -87,6 +87,9 @@ max-width: 145px;
   }
   .logoslider{
     padding: 2.5rem 1.3rem;
+  }
+  .logoslider-slide{
+    padding-right: 1rem;
   }
   .back-to-top{
     display: block;
