@@ -72,9 +72,7 @@ flex-direction:  column;
   .news-model>.title{
     margin-inline: 1rem;
   }
-  .social-col{
-    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
-  }
+  
   .slick-list{
     max-width:405px ;
   }
