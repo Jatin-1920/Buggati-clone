@@ -72,6 +72,10 @@ flex-direction:  column;
   .news-model>.title{
     margin-inline: 1rem;
   }
+
+  .social-col{
+    grid-template-columns: repeat(auto,minmax(20rem,1fr));
+  }
   
   .slick-list{
     max-width:405px ;
@@ -139,7 +143,7 @@ li:hover .sub-nav{
   padding: 0 1rem;
  }
  .social-col{
-  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(2,1fr));
  }
  .logoslider{
   padding: 2rem 2rem;
