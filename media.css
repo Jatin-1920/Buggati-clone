@@ -61,6 +61,7 @@
     grid-template-columns: 1fr;
     gap: 1rem;
   }
+
   .news-col2{
     display: flex;
 flex-direction:  column;
@@ -70,6 +71,9 @@ flex-direction:  column;
   }
   .news-model>.title{
     margin-inline: 1rem;
+  }
+  .social-col{
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
   }
   .slick-list{
     max-width:405px ;
