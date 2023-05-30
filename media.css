@@ -31,6 +31,9 @@
   li:hover>.sub-nav{
     display: none;
   }
+  .logo img{
+    width: 3.75rem;
+  }
   .main-container{
     padding: 1.87rem 1.3rem .6rem;
   }
