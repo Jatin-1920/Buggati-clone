@@ -131,7 +131,7 @@ transform: scaleY(0);
 transform-origin: top;
 height: 100%;
 background-size: cover;
-background-image: url(img/w16.jpg);
+background-image: url(img/m16.jpg);
 transition: transform 500ms ease-in-out;
   }
 
