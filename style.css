@@ -90,6 +90,8 @@ height: 5rem;
 
 .logo img{
   width: 5.25rem;
+    background-blend-mode:color-burn;
+    aspect-ratio:3/2;
 }
   .logo{
 background: transparent;
@@ -97,15 +99,7 @@ background: transparent;
 
   
   
-  .search{
-    font-weight: 900;
-    letter-spacing: 1px;
-    padding: .5rem 0 .5rem 1rem;
-    background: transparent;
-    color: rgb(27, 27, 27);
-   border: none;
-   outline: transparent;
-  }
+  
 
 
   li{
