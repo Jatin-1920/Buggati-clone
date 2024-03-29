@@ -131,7 +131,7 @@ transform: scaleY(0);
 transform-origin: top;
 height: 100%;
 background-size: cover;
-background-image: url(https://www.bugatti.com/fileadmin/_processed_/sei/nav/se-image-73a33b92189407ee6c6068427c14197b.jpg);
+background-image: url(w16.jpg);
 transition: transform 500ms ease-in-out;
   }
 
