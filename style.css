@@ -181,9 +181,8 @@ li:hover .sub-nav{
   width: 100%;
   background-size: cover;
   height: 80dvh;
-  background-image: url(img/m16.jpg);
+  background: url(img/m16.jpg);
   color: white;
-    background-position: center center;
 }
 
 .main-container{
