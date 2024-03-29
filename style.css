@@ -131,7 +131,7 @@ transform: scaleY(0);
 transform-origin: top;
 height: 100%;
 background-size: cover;
-background-image: url(img/m16.jpg);
+background: url("img/m16.jpg");
 transition: transform 500ms ease-in-out;
   }
 
@@ -178,11 +178,13 @@ li:hover .sub-nav{
 }
 
 .main-content{
-  width: 100%;
-  background-size: cover;
+  width: 100dvw;
   height: 80dvh;
-  background: url(img/m16.jpg);
+  background: url("img/m16.jpg");
   color: white;
+    background-size: cover;
+    background-repeat:no-repeat;
+    
 }
 
 .main-container{
