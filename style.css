@@ -181,8 +181,9 @@ li:hover .sub-nav{
   width: 100%;
   background-size: cover;
   height: 80%;
-  background-image: url(https://www.bugatti.com/fileadmin/_processed_/sei/p1/se-image-d37f5243f6ae21dcfb1fbf28dfe261f5.jpg);
+  background-image: url(mistral.webp);
   color: white;
+    background-position: center center;
 }
 
 .main-container{
