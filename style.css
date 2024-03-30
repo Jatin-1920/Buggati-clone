@@ -25,6 +25,7 @@
     letter-spacing: 1px;
     font-family: 'Patrick Hand',serif;
     scroll-behavior: smooth;
+      color:black;
   }
   /*
     6. Improve media defaults
@@ -87,6 +88,8 @@ a{
   padding-block:1rem;
     padding-inline:1rem;
 height: 5rem;
+    position:sticky;
+    top:0;
 }
 
 .logo img{
@@ -338,6 +341,7 @@ margin-bottom: 1rem;
   border-top: 1px solid black;
 padding-top: .8rem;
 font-size: var(--fontsmal);
+    color:black;
 }
 .view-all-news a i {
   margin-left: 1rem;
