@@ -143,6 +143,9 @@ a{
 .nav a li {
     font-size:2.5rem;
 }
+.nav>a:focus .nav{
+    transform:translateY(-100%);
+}
 
 .main-content{
   width: 100dvw;
