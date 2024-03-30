@@ -127,7 +127,7 @@ background: transparent;
     gap:1rem;
     overflow:clip;
     padding:1rem;
-    transform: translateY(-100%);
+    transform: translateY(-110%);
     transition:all .7s ease-in-out;
 }
 a{
