@@ -1,7 +1,6 @@
 const open = document.querySelector('#open')
 const close = document.querySelector('#close')
-const nav = document.querySelector('.primary-nav')
-const primary = document.querySelector('.primary-navigation')
+const nav = document.querySelector('.nav')
 open.addEventListener("click",function(){
     open.style.transform = "rotate(1turn)"
 nav.style.transform="translateY(0)"
