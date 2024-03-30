@@ -138,6 +138,8 @@ background: transparent;
 a{
     text-decoration:none;
     color:white;
+}
+.nav a li {
     font-size:2.5rem;
 }
 
