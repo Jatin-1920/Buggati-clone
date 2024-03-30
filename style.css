@@ -126,7 +126,7 @@ background: transparent;
     flex-direction:column;
     gap:1rem;
     padding:1rem;
-    transform: translateY(100%);
+    transform: translateY(-100%);
     transition:all .7s ease-in-out;
 }
 a{
