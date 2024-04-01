@@ -121,6 +121,7 @@ background: transparent;
   #close{
     display: none;
       color:white;
+      z-index:13;
   }
 
 .nav{
