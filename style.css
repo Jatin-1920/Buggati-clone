@@ -88,8 +88,9 @@ a{
   padding-block:1rem;
     padding-inline:1rem;
 height: 5rem;
-    position:sticky;
+    position:fixed;
     top:0;
+    z-index:999;
 }
 
 .logo img{
